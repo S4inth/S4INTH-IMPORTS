@@ -1,10 +1,13 @@
-S4INTH IMPORTS
-1. Abra index.html para testar a loja.
-2. Gere links de afiliado em https://portals.aliexpress.com/.
-3. Abra a seção Gerenciar produtos, cadastre seus produtos e teste.
-4. Para publicar para todos, edite products.js e coloque a lista de produtos entre [ e ], no formato:
-window.S4INTH_PRODUCTS = [{"name":"Nome","price":"R$ 59,90","category":"Eletrônicos","url":"https://SEU-LINK-DE-AFILIADO","image":"https://URL-DA-FOTO"}];
-5. Crie repositório público s4inth-imports no GitHub, envie index.html e products.js.
-6. Em Settings > Pages, escolha Deploy from a branch, main, /root, Save.
-7. Seu endereço será https://SEU-USUARIO.github.io/s4inth-imports/.
-A área de cadastro salva no navegador local; exportar não publica automaticamente. Não publique App Secret ou senhas.
+S4INTH IMPORTS - Primeira oferta afiliada
+
+1. No GitHub, abra seu repositorio da loja.
+2. Substitua o arquivo products.js da raiz pelo products.js desta pasta (Add file > Upload files ou edite o arquivo existente).
+3. Clique em Commit changes. O site publicado pelo GitHub Pages deve atualizar apos a publicacao.
+4. O arquivo index.html acompanha o pacote caso voce ainda nao tenha a versao original; nao precisa substituir o seu se ele ja for igual.
+
+IMPORTANTE: O nome e preco do produto nao foram identificados a partir do link curto; por isso o cadastro mostra 'Oferta AliExpress #1' e 'Consultar preco no AliExpress'. Para alterar, edite name, price, category e image em products.js.
+
+Se voce ja adicionou produtos no navegador usando o painel de gerenciamento, a lista salva localmente pode sobrescrever o catalogo publicado. Para conferir a versao publica, abra o site em uma janela anonima.
+
+Link afiliado cadastrado:
+https://s.click.aliexpress.com/e/_c3Tvoz3z
