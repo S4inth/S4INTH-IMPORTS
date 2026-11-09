@@ -1,3 +1,9 @@
-// Catálogo público. Edite este arquivo para publicar produtos para todos os visitantes.
-// Use apenas links de afiliado gerados e verificados no AliExpress Portals.
-window.S4INTH_PRODUCTS = [];
+window.S4INTH_PRODUCTS = [
+  {
+    name: "Oferta AliExpress #1",
+    price: "Consultar preço no AliExpress",
+    category: "Outros",
+    url: "https://s.click.aliexpress.com/e/_c3Tvoz3z",
+    image: ""
+  }
+];
